@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-[#324154] text-white">
@@ -7,7 +5,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold">Company</h3>
             <div className="p-2 bg-white w-36 rounded-sm">
               <img src="/one-home-service-trial-2/logo.svg" />
             </div>
@@ -126,7 +123,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 border-t border-white pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 YourCompany. All rights reserved.
+            © 2025 One Home Service. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white">
